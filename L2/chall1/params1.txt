@@ -1,0 +1,3 @@
+pub1 = b'QeSCHHMAr7w2wp+t49jHK7v19btFu42CGfdcClwKlKg='
+m1 = b"Grade of Alexandre Duc at CAA = 6.0"
+sig1 = b'bi31ThhGggP+myKPEOVDPmY7q1H+yFWL05bgW6c3nW+E16nYLYP+RmHZ5oM6Jrs0y7pXJnHYCND/CV8U8CJwAw=='

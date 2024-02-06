@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2023-12-12T21:30:13.405Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="u-sYWgwPF4s_gy38DuKh" version="22.1.8" type="device">
+  <diagram name="Page-1" id="lfiYw6JlVgPQfvTNw4Mi">
+    <mxGraphModel dx="775" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-1" value="User selects a folder to retrieve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="LeKV3wYJmATkYyMsKGjQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LeKV3wYJmATkYyMsKGjQ-6" target="LeKV3wYJmATkYyMsKGjQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-6" value="Retrieve target folder&#39;s metadata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LeKV3wYJmATkYyMsKGjQ-8" target="LeKV3wYJmATkYyMsKGjQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Retrieve target folder&#39;s sym. key (in metadata, share or not) and decrypt it with the current folder&#39;s sym. key&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="270" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-9" value="&lt;font color=&quot;#ff120a&quot;&gt;Ici, on part du principe qu&#39;on a déjà la sym key du folder actuel&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LeKV3wYJmATkYyMsKGjQ-11" value="User can read and retrieve all the content from the folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

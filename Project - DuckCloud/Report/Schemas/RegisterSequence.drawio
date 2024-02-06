@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" modified="2023-12-30T17:05:52.328Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Wyh8RrwIeuLI_VypD3kj" version="22.1.16" type="device">
+  <diagram name="Page-1" id="ZgaFaatklyg3jivbGVoo">
+    <mxGraphModel dx="1434" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="35" width="760" height="765" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-1" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="200" y="90" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-2" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="600" y="90" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="ZYvSqv5CcCD1XuF3hdmb-2" vertex="1">
+          <mxGeometry x="45" y="320" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-4" value="Initiates register" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry y="61" width="60" relative="1" as="geometry">
+            <mxPoint x="246.10000000000002" y="170" as="sourcePoint" />
+            <mxPoint x="246.10000000000002" y="170" as="targetPoint" />
+            <mxPoint x="-60" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-5" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="ZYvSqv5CcCD1XuF3hdmb-6" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="249" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="245" y="150" width="10" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="233" as="sourcePoint" />
+            <mxPoint x="255" y="279" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="233" />
+              <mxPoint x="280" y="249" />
+              <mxPoint x="280" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-8" value="Processes&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Stretched Master Key&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(HKDF)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="59" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="622" as="sourcePoint" />
+            <mxPoint x="645" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-10" value="Send MPH + PSK + PPK + PK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2077" relative="1" as="geometry">
+            <mxPoint x="41" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-17" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="84" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Register&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="84" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="487" as="sourcePoint" />
+            <mxPoint x="255" y="533" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="487" />
+              <mxPoint x="280" y="503" />
+              <mxPoint x="280" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-24" value="Processes&lt;br&gt;Protected Symmetric Key&lt;br&gt;(XChaCha20-Poly1305)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="64" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="554" as="sourcePoint" />
+            <mxPoint x="255" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="554" />
+              <mxPoint x="280" y="570" />
+              <mxPoint x="280" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-26" value="Processes&lt;br&gt;Protected Private Key&lt;br&gt;(XChaCha20-Poly1305)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="60" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="421" as="sourcePoint" />
+            <mxPoint x="255" y="467" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="421" />
+              <mxPoint x="280" y="437" />
+              <mxPoint x="280" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-28" value="RSA keys&lt;br&gt;generation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="39" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-29" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="625" as="sourcePoint" />
+            <mxPoint x="655" y="671" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="625" />
+              <mxPoint x="680" y="641" />
+              <mxPoint x="680" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-30" value="Master Password Hash&lt;br&gt;Server hashing&lt;br&gt;and&lt;br&gt;verify the uniqueness&lt;br&gt;of the username" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="59" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-33" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="695" as="sourcePoint" />
+            <mxPoint x="655" y="741" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="695" />
+              <mxPoint x="680" y="711" />
+              <mxPoint x="680" y="741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYvSqv5CcCD1XuF3hdmb-34" value="Store all the received&lt;br&gt;data in database&lt;br&gt;(user&#39;s metadata)&lt;br&gt;and create root folder&lt;br&gt;(with folder metadata)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZYvSqv5CcCD1XuF3hdmb-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="59" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Enter Master Password&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="136" y="161" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="165" as="sourcePoint" />
+            <mxPoint x="255" y="211" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="165" />
+              <mxPoint x="280" y="181" />
+              <mxPoint x="280" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-5" value="Processes&lt;br&gt;Master Key&lt;br&gt;(Argon2id)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L0d_EhFILOl8O6hskPP5-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="49" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="297" as="sourcePoint" />
+            <mxPoint x="255" y="343" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="297" />
+              <mxPoint x="280" y="313" />
+              <mxPoint x="280" y="343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-9" value="&lt;div&gt;Processes&lt;/div&gt;&lt;div&gt;Master Password Hash&lt;/div&gt;&lt;div&gt;(Argon2id)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L0d_EhFILOl8O6hskPP5-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="62" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;startArrow=classic;startFill=1;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="760" as="sourcePoint" />
+            <mxPoint x="645" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0d_EhFILOl8O6hskPP5-14" value="Registration succesful" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="L0d_EhFILOl8O6hskPP5-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2077" relative="1" as="geometry">
+            <mxPoint x="41" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NV4aKHRHTpgoNtTKuTqR-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256" y="360" as="sourcePoint" />
+            <mxPoint x="256" y="406" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="281" y="360" />
+              <mxPoint x="281" y="376" />
+              <mxPoint x="281" y="406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NV4aKHRHTpgoNtTKuTqR-2" value="Symmetric key&amp;nbsp;&lt;br&gt;generation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NV4aKHRHTpgoNtTKuTqR-1">
+          <mxGeometry x="-0.0183" y="1" relative="1" as="geometry">
+            <mxPoint x="39" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,3 @@
+target
+src/server/storage/root_folders/*
+src/server/storage/users/*

@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2023-12-12T21:03:46.505Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uJ8qCEqo0ClyudK8fL6X" version="22.1.7" type="device">
+  <diagram name="Page-1" id="-yS8hUU3NesAM9r46DmD">
+    <mxGraphModel dx="896" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMdYuS3KZvyZuNJ8wINn-1" target="EMdYuS3KZvyZuNJ8wINn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-1" value="Select file to download" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMdYuS3KZvyZuNJ8wINn-2" target="EMdYuS3KZvyZuNJ8wINn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-2" value="Retrieves folder&#39;s metadata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMdYuS3KZvyZuNJ8wINn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.0000000000002" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-4" value="Retrieves folder&#39;s sym. key&lt;br&gt;(shared or not)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMdYuS3KZvyZuNJ8wINn-4" target="EMdYuS3KZvyZuNJ8wINn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMdYuS3KZvyZuNJ8wINn-9" value="Download file and decrypt it" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
